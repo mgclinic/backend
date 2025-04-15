@@ -34,22 +34,27 @@ router.get('/count', authMiddleware, async (req, res) => {
     {
       name:"Faq",
       count :faqCount,
+      url:"faqs"
     },
     {
       name:"Apppointment",
       count :appointmentCount,
+      url:"appointments"
     },
     {
       name:"Sliders",
       count :sliderCount,
+      url:"slider"
     },
     {
       name:"Testimonials",
       count :testimonialCount,
+      url:"testimonials"
     },
     {
       name:"Enquiry",
       count :enquiryCount,
+      url:"enquiries"
     },
    ]
     
